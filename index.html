@@ -3,16 +3,74 @@
   <head>
     <title></title>
     <meta charset="utf-8" />
+    <!-- attaching CSS requires a self closing (link) with a relationship (rel) attribute and the (href) -->
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Odin Recipes</h1>
-    <img src="images/cooking.jpg" alt="cooking image" width="500" />
-    <h2>Welcome to my Recipe Page!</h2>
-    <p>Fun and easy recipes for a summery lunch session.</p>
-    <ol>
-      <li><a href="recipes/onigirazu.html">Simple Onigirazu Recipe</a></li>
-      <li><a href="recipes/bees-knees.html">The Perfect Bees Knees</a></li>
-      <li><a href="recipes/kielbasa.html">Smokey Kielbasa with Sauerkraut</a> </a></li>
-    </ol>
+    <div class="alldiv">
+      <div class="div1">
+        <h1>Odin Recipes Exercise</h1>
+        <img
+          src="images/cooking.jpg"
+          alt="cooking image"
+          width="500"
+          class="lgimage"
+        />
+        <div class="welcomediv">
+          <h2>Welcome to my Recipe Page!</h2>
+          <p>Fun and easy recipes for a summery lunch session.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container2">
+          <img
+            src="images/yummy-onigirazu.jpg"
+            alt="yummy onigirazu"
+            width="275px"
+            class="smlimage"
+          />
+          <div class="textcontainer">
+            <a href="recipes/onigirazu.html">Simple Onigirazu Recipe</a>
+            <p>
+              A japanese rice dish that is easy to make and easier to pack on
+              the go. Enjoy it will your own ingredients or use our suggestions!
+            </p>
+          </div>
+        </div>
+
+        <div class="container2">
+          <img
+            src="images/bees-knees.jpeg"
+            alt="bees knees cocktail"
+            width="275px"
+            class="smlimage"
+          />
+          <div class="textcontainer">
+            <a href="recipes/bees-knees.html">The Perfect Bees Knees</a>
+            <p>
+              A simple and delicious cocktail. The Bees Knees is a summery twist
+              on the classic Gin Gimlet. Enjoy it on it's own and batch it ahead
+              of time for a citrusy punch for the whole party.
+            </p>
+          </div>
+        </div>
+
+        <div class="container2">
+          <img
+            src="images/kielbasa.jpg"
+            alt="kielbasa"
+            width="275px"
+            class="smlimage"
+          />
+          <div class="textcontainer">
+            <a href="recipes/kielbasa.html">Smokey Kielbasa with Sauerkraut</a>
+            <p>
+              Smokey kielbasa sausage with a hearty mixture of sauerkraut and
+              sweet potato. Great for large parties and outdoor grilling.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
